@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 (() => {
   console.log("Injected!!!");
 
@@ -53,3 +54,12 @@
     });
   } catch (e) {}
 })();
+=======
+(()=>{
+  console.log("Injected!!!")
+  chrome.runtime.onMessage.addListener((req, sender, sendResponse) => {
+  });
+})()
+
+       
+>>>>>>> 7e01d2781f370be43cd1b20c77e4d2a0aae7a0fe
